@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">CodeStorm</title>
     <subtitle type="html"></subtitle>
-    <updated>2023-10-19T22:55:12&#43;08:00</updated>
+    <updated>2023-10-20T00:23:49&#43;08:00</updated>
     <id>https://codestormv.github.io/</id>
     <link rel="alternate" type="text/html" href="https://codestormv.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://codestormv.github.io/atom.xml" />
@@ -15,16 +15,48 @@
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.117.0">Hugo</generator>
         <entry>
+            <title type="text">Git | 设置子目录执行相同命令</title>
+            <link rel="alternate" type="text/html" href="https://codestormv.github.io/posts/git/git_set_submodule_execute_the_same_git_command/git_set_submodule_execute_the_same_git_command/" />
+            <id>https://codestormv.github.io/posts/git/git_set_submodule_execute_the_same_git_command/git_set_submodule_execute_the_same_git_command/</id>
+            <updated>2023-10-20T00:23:45&#43;08:00</updated>
+            <published>2023-10-19T00:00:00&#43;00:00</published>
+            <author>
+                    <name>Codestorm</name>
+                    <uri>https://codestormv.github.io/</uri>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html"></summary>
+            
+                <content type="html">&lt;ol&gt;
+&lt;li&gt;在控制台输入： &lt;code&gt;git config alias.sync &#39;!f(){ git &amp;quot;$@&amp;quot; &amp;amp;&amp;amp; cd public &amp;amp;&amp;amp; git &amp;quot;$@&amp;quot;; }; f&#39;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;然后输入：&lt;code&gt;git sync 命令&lt;/code&gt; 如 &lt;code&gt;git commit -m &amp;quot;提交信息&amp;quot;&lt;/code&gt; 就可以达到子目录执行相同的命令&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+            
+            
+            
+                
+                
+                
+                    
+                    
+                    
+                
+            
+            
+            
+        </entry>
+    
+        <entry>
             <title type="text">Python | self 的使用</title>
             <link rel="alternate" type="text/html" href="https://codestormv.github.io/posts/python/python_self/" />
             <id>https://codestormv.github.io/posts/python/python_self/</id>
-            <updated>2023-10-19T17:07:19&#43;08:00</updated>
+            <updated>2023-10-20T00:07:18&#43;08:00</updated>
             <published>2023-08-30T00:00:00&#43;00:00</published>
             <author>
                     <name>Codestorm</name>
                     <uri>https://codestormv.github.io/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">self self 在类中出现 表示类实例自身的引用，可以调用实例的属性和方法 使用 self 的变量作用域在整个……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html"></summary>
             
                 <content type="html">&lt;h2 id=&#34;self&#34;&gt;self&lt;/h2&gt;
 &lt;ol&gt;
@@ -57,13 +89,13 @@
             <title type="text">Python | 包管理</title>
             <link rel="alternate" type="text/html" href="https://codestormv.github.io/posts/python/python_package_manage/" />
             <id>https://codestormv.github.io/posts/python/python_package_manage/</id>
-            <updated>2023-10-13T11:22:37&#43;08:00</updated>
+            <updated>2023-10-20T00:07:13&#43;08:00</updated>
             <published>2023-08-28T00:00:00&#43;00:00</published>
             <author>
                     <name>Codestorm</name>
                     <uri>https://codestormv.github.io/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">安装所有 pip 包 pip install -r requirement.txt -r 指定文件 删除所有 pip 的包 pip freeze &amp;gt; requirements.txt freeze 是指将当前环境中安装的所有包及……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html"></summary>
             
                 <content type="html">&lt;h2 id=&#34;安装所有-pip-包&#34;&gt;安装所有 pip 包&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;pip install -r requirement.txt&lt;/code&gt;&lt;br&gt;
@@ -105,7 +137,7 @@ freeze 是指将当前环境中安装的所有包及其版本信息列出，并�
                     <name>Codestorm</name>
                     <uri>https://codestormv.github.io/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">报错 ERROR: Failed building wheel for XXX ERROR: Could not build wheels for XXX, which is required to install pyproject.toml-based projects 原因：缺少 whl 文件 解决： 到官网下载 whl 文件 执……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html"></summary>
             
                 <content type="html">&lt;h2 id=&#34;报错&#34;&gt;报错&lt;/h2&gt;
 &lt;ul&gt;
@@ -144,13 +176,13 @@ freeze 是指将当前环境中安装的所有包及其版本信息列出，并�
             <title type="text">VSCode | 文件转移</title>
             <link rel="alternate" type="text/html" href="https://codestormv.github.io/posts/vscode/vscode_file_transfer/" />
             <id>https://codestormv.github.io/posts/vscode/vscode_file_transfer/</id>
-            <updated>2023-10-13T11:22:47&#43;08:00</updated>
+            <updated>2023-10-20T00:07:24&#43;08:00</updated>
             <published>2023-08-28T00:00:00&#43;00:00</published>
             <author>
                     <name>Codestorm</name>
                     <uri>https://codestormv.github.io/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">文件转移 VSCode 会在 C 盘占用一部分空间，进行文件链接转移文件位置。 文件位置一般位于 C:\U……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html"></summary>
             
                 <content type="html">&lt;h2 id=&#34;文件转移&#34;&gt;文件转移&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;VSCode&lt;/code&gt; 会在 C 盘占用一部分空间，进行文件链接转移文件位置。
@@ -192,13 +224,13 @@ mklink /J &amp;#34;%USERPROFILE%\.vscode&amp;#34; &amp;#34;目标目录&amp;#34;
             <title type="text">Windows | mklink 的使用</title>
             <link rel="alternate" type="text/html" href="https://codestormv.github.io/posts/windows/mklink/" />
             <id>https://codestormv.github.io/posts/windows/mklink/</id>
-            <updated>2023-10-19T17:27:36&#43;08:00</updated>
+            <updated>2023-10-20T00:07:30&#43;08:00</updated>
             <published>2023-08-27T00:00:00&#43;00:00</published>
             <author>
                     <name>Codestorm</name>
                     <uri>https://codestormv.github.io/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">mklink 1 2 3 4 5 6 7 8 9 MKLINK [[/D] | [/H] | [/J]] Link Target /D 创建目录符号链接。默认为文件 符号链接。 /H 创建硬……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html"></summary>
             
                 <content type="html">&lt;h2 id=&#34;mklink&#34;&gt;mklink&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
