@@ -1,8 +1,12 @@
 <link rel="stylesheet" href="/css/meme.min.836c3b9fd0407dfe5b483eb004ec5f95e7653b1f11b8f367f9450992b527293c.css"/>
-<script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="/js/meme.min.21d99fe976f7530c2ea39c11a718b3461ce56cc6f240a92e0dc05cc2da990e0a.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="/js/meme.min.166fd02ed37edc3150bfc94e85539bf5569a3876ac4b7f44779bed719cd0eb43.js"></script>
 
-<html lang="zh-CN" data-theme="dark">
-  <p><a href="/posts">Keep it up</a></p>
+<html lang="zh-CN"  data-theme="light" >
+
+<body id="homepage">
+  <p id="hompage-content"></p><br>
+  <p id="hompage-link"><a href="/posts">主页</a></p>
+</body>
 
 </html>
 <style>
@@ -11,10 +15,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
 
-  p {
+  #hompage-content {
+    display: inline-flex;
     font-size: 4em;
-    padding-bottom: 100px;
+    padding: 0;
+    margin: 0 ;
+  }
+
+  #hompage-link {
+    display: inline-flex;
+    font-size: 4em;
+    padding-bottom: 150px;
+    margin: 0;
   }
 </style>
