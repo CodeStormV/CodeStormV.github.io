@@ -19,13 +19,13 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Fri, 20 Oct 2023 20:22:40 &#43;0800</lastBuildDate>
+        <lastBuildDate>Fri, 20 Oct 2023 21:13:01 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://codestormv.github.io/rss.xml" />
         
         
             <item>
-                <title>Git | 设置子目录执行相同命令</title>
+                <title>Git | 设置子模块执行相同命令</title>
                 <link>https://codestormv.github.io/posts/2023/10/submodule-same-command/</link>
                 <guid isPermaLink="true">https://codestormv.github.io/posts/2023/10/submodule-same-command/</guid>
                 <pubDate>Thu, 19 Oct 2023 00:00:00 &#43;0000</pubDate>
@@ -33,12 +33,37 @@
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
                     <description>&lt;ol&gt;
-&lt;li&gt;在控制台输入：&lt;br&gt;
-&lt;code&gt;git config alias.sync &#39;!f(){ git &amp;quot;$@&amp;quot; &amp;amp;&amp;amp; cd public &amp;amp;&amp;amp; git &amp;quot;$@&amp;quot;; }; f&#39;&lt;/code&gt;&lt;br&gt;
-或者&lt;br&gt;
-&lt;code&gt;git config alias.sync &amp;quot;!f(){ git \&amp;quot;$@\&amp;quot; &amp;amp;&amp;amp; git -C public \&amp;quot;$@\&amp;quot;; }; f&amp;quot;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;然后输入：&lt;code&gt;git sync 命令&lt;/code&gt; 如 &lt;code&gt;git sync commit -m &amp;quot;提交信息&amp;quot;&lt;/code&gt; 就可以达到子目录执行相同的命令&lt;/li&gt;
+&lt;li&gt;在 &lt;code&gt;powershell&lt;/code&gt; 输入：&lt;/li&gt;
 &lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config alias.sync &lt;span class=&#34;s1&#34;&gt;&amp;#39;!f(){ git &amp;#34;$@&amp;#34; &amp;amp;&amp;amp; cd 子模块文件夹名字 &amp;amp;&amp;amp; git &amp;#34;$@&amp;#34;; }; f&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;或者直接在 &lt;code&gt;.git/config&lt;/code&gt; 中的 &lt;code&gt;[alias]&lt;/code&gt; 中填入&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config alias.sync &lt;span class=&#34;s2&#34;&gt;&amp;#34;!f(){ git \&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$@&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;\&amp;#34; &amp;amp;&amp;amp; git -C 子模块文件夹名字 \&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$@&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;\&amp;#34;; }; f&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;然后输入：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git sync &lt;span class=&#34;s2&#34;&gt;&amp;#34;命令&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;如 &lt;code&gt;git sync commit -m &amp;quot;提交信息&amp;quot;&lt;/code&gt; 就可以实现子模块执行当前目录执行的相同的命令&lt;/p&gt;
 </description>
                 
                 
@@ -110,10 +135,24 @@
 &lt;p&gt;&lt;code&gt;pip install -r requirement.txt&lt;/code&gt;&lt;br&gt;
 &lt;code&gt;-r&lt;/code&gt; 指定文件&lt;/p&gt;
 &lt;h2 id=&#34;删除所有-pip-的包&#34;&gt;删除所有 pip 的包&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;pip freeze &amp;gt; requirements.txt&lt;/code&gt;&lt;br&gt;
-freeze 是指将当前环境中安装的所有包及其版本信息列出，并将其输出到一个文本文件中
-&lt;code&gt;pip uninstall -r requirements.txt -y&lt;/code&gt;&lt;br&gt;
-&lt;code&gt;-r&lt;/code&gt; 指定文件&lt;br&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip freeze &amp;gt; requirements.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;freeze 是指将当前环境中安装的所有包及其版本信息列出，并将其输出到一个文本文件中&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip uninstall -r requirements.txt -y
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;code&gt;-r&lt;/code&gt; 指定文件&lt;br&gt;
 &lt;code&gt;-y&lt;/code&gt; 默认选择同意&lt;/p&gt;
 &lt;h2 id=&#34;pipreqs-导出所有依赖包&#34;&gt;pipreqs 导出所有依赖包&lt;/h2&gt;
 &lt;ol&gt;
@@ -202,9 +241,17 @@ freeze 是指将当前环境中安装的所有包及其版本信息列出，并�
 &lt;li&gt;粘贴到想要转移的位置&lt;/li&gt;
 &lt;li&gt;打开 &lt;code&gt;cmd&lt;/code&gt; 输入&lt;/li&gt;
 &lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;mklink /J &amp;#34;%APPDATA%\Code&amp;#34; &amp;#34;目标目录&amp;#34;
-mklink /J &amp;#34;%USERPROFILE%\.vscode&amp;#34; &amp;#34;目标目录&amp;#34;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;%APPDATA%&lt;/code&gt; 代表 &lt;code&gt;C:\Users\用户名\AppData\Roaming&lt;/code&gt;&lt;br&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;mklink&lt;/span&gt; /J &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;%APPDATA%&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;\Code&amp;#34;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;目标目录&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;mklink&lt;/span&gt; /J &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;%USERPROFILE%&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;\.vscode&amp;#34;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;目标目录&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;code&gt;%APPDATA%&lt;/code&gt; 代表 &lt;code&gt;C:\Users\用户名\AppData\Roaming&lt;/code&gt;&lt;br&gt;
 &lt;code&gt;%USERPROFILE%&lt;/code&gt; 代表 &lt;code&gt;C:\User\用户名&lt;/code&gt;&lt;/p&gt;
 &lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;完成文件转移&lt;/li&gt;

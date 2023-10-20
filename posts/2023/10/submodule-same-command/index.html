@@ -15,14 +15,14 @@
     
     <meta http-equiv="Cache-Control" content="no-siteapp" />
 
-    <title>Git | 设置子目录执行相同命令 | CodeStorm</title>
+    <title>Git | 设置子模块执行相同命令 | CodeStorm</title>
 
     <link rel="stylesheet" href="/css/meme.min.2e02c6b8b08657c6395b1a97bf0797ffd1758073d9da8d9728872dc769b4fbcd.css"/>
 
     
     
         
-            <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="/js/meme.min.10a682fdf38c65e9271cf73adfdfd712380c3e5c25503bdb606ca03863e39814.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="/js/meme.min.ebd449c735be1124286debe3e3c68466c9ff9fa82bffe5c7c7138ac52d99b097.js"></script>
 
         
     
@@ -59,13 +59,13 @@
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2023-10-19T00:00:00+00:00",
-        "dateModified": "2023-10-20T14:36:24+08:00",
+        "dateModified": "2023-10-20T21:12:50+08:00",
         "url": "https://codestormv.github.io/posts/2023/10/submodule-same-command/",
-        "headline": "Git | 设置子目录执行相同命令",
+        "headline": "Git | 设置子模块执行相同命令",
         "description": "",
         "inLanguage" : "zh-CN",
         "articleSection": "posts",
-        "wordCount":  83 ,
+        "wordCount":  123 ,
         "author": {
             "@type": "Person",
             "url": "https://codestormv.github.io/",
@@ -93,13 +93,13 @@
 
 
 
-<meta property="og:title" content="Git | 设置子目录执行相同命令" />
+<meta property="og:title" content="Git | 设置子模块执行相同命令" />
 <meta property="og:description" content="" />
 <meta property="og:url" content="https://codestormv.github.io/posts/2023/10/submodule-same-command/" />
 <meta property="og:site_name" content="CodeStorm" />
 <meta property="og:locale" content="zh" /><meta property="og:type" content="article" />
     <meta property="article:published_time" content="2023-10-19T00:00:00&#43;00:00" />
-    <meta property="article:modified_time" content="2023-10-20T14:36:24&#43;08:00" />
+    <meta property="article:modified_time" content="2023-10-20T21:12:50&#43;08:00" />
     
     <meta property="article:section" content="posts" />
 
@@ -221,7 +221,7 @@
 
         <article class="content post h-entry" data-align="justify" data-type="posts" data-toc-num="true">
 
-            <h1 class="post-title p-name">Git | 设置子目录执行相同命令</h1>
+            <h1 class="post-title p-name">Git | 设置子模块执行相同命令</h1>
 
             
 
@@ -239,7 +239,7 @@
     
     
         
-        <time datetime="2023-10-20T14:36:24&#43;08:00" class="post-meta-item modified dt-updated"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2023.10.20</time>
+        <time datetime="2023-10-20T21:12:50&#43;08:00" class="post-meta-item modified dt-updated"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2023.10.20</time>
     
     
     
@@ -271,12 +271,37 @@
 
             <div class="post-body e-content">
                 <ol>
-<li>在控制台输入：<br>
-<code>git config alias.sync '!f(){ git &quot;$@&quot; &amp;&amp; cd public &amp;&amp; git &quot;$@&quot;; }; f'</code><br>
-或者<br>
-<code>git config alias.sync &quot;!f(){ git \&quot;$@\&quot; &amp;&amp; git -C public \&quot;$@\&quot;; }; f&quot;</code></li>
-<li>然后输入：<code>git sync 命令</code> 如 <code>git sync commit -m &quot;提交信息&quot;</code> 就可以达到子目录执行相同的命令</li>
+<li>在 <code>powershell</code> 输入：</li>
 </ol>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git config alias.sync <span class="s1">&#39;!f(){ git &#34;$@&#34; &amp;&amp; cd 子模块文件夹名字 &amp;&amp; git &#34;$@&#34;; }; f&#39;</span>
+</span></span></code></pre></td></tr></table></div>
+</div>
+</div><p>或者直接在 <code>.git/config</code> 中的 <code>[alias]</code> 中填入</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git config alias.sync <span class="s2">&#34;!f(){ git \&#34;</span><span class="nv">$@</span><span class="s2">\&#34; &amp;&amp; git -C 子模块文件夹名字 \&#34;</span><span class="nv">$@</span><span class="s2">\&#34;; }; f&#34;</span>
+</span></span></code></pre></td></tr></table></div>
+</div>
+</div><ol start="2">
+<li>然后输入：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git sync <span class="s2">&#34;命令&#34;</span>
+</span></span></code></pre></td></tr></table></div>
+</div>
+</div><p>如 <code>git sync commit -m &quot;提交信息&quot;</code> 就可以实现子模块执行当前目录执行的相同的命令</p>
 
             </div>
 
