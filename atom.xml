@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">CodeStorm</title>
     <subtitle type="html"></subtitle>
-    <updated>2023-10-20T17:17:48&#43;08:00</updated>
+    <updated>2023-10-20T18:43:36&#43;08:00</updated>
     <id>https://codestormv.github.io/</id>
     <link rel="alternate" type="text/html" href="https://codestormv.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://codestormv.github.io/atom.xml" />
@@ -16,8 +16,8 @@
     <generator uri="https://gohugo.io/" version="0.117.0">Hugo</generator>
         <entry>
             <title type="text">Git | 设置子目录执行相同命令</title>
-            <link rel="alternate" type="text/html" href="https://codestormv.github.io/posts/git/git_set_submodule_execute_the_same_git_command/git_set_submodule_execute_the_same_git_command/" />
-            <id>https://codestormv.github.io/posts/git/git_set_submodule_execute_the_same_git_command/git_set_submodule_execute_the_same_git_command/</id>
+            <link rel="alternate" type="text/html" href="https://codestormv.github.io/posts/2023/10/submodule-execute/" />
+            <id>https://codestormv.github.io/posts/2023/10/submodule-execute/</id>
             <updated>2023-10-20T14:36:24&#43;08:00</updated>
             <published>2023-10-19T00:00:00&#43;00:00</published>
             <author>
@@ -43,6 +43,10 @@
                     
                     
                     
+                        
+                            <category scheme="https://codestormv.github.io/posts/git/" term="posts\Git\" label="posts\Git\" />
+                        
+                    
                 
             
             
@@ -51,8 +55,8 @@
     
         <entry>
             <title type="text">Python | self 的使用</title>
-            <link rel="alternate" type="text/html" href="https://codestormv.github.io/posts/python/self-use/" />
-            <id>https://codestormv.github.io/posts/python/self-use/</id>
+            <link rel="alternate" type="text/html" href="https://codestormv.github.io/posts/2023/08/self-use/" />
+            <id>https://codestormv.github.io/posts/2023/08/self-use/</id>
             <updated>2023-10-20T00:07:18&#43;08:00</updated>
             <published>2023-08-30T00:00:00&#43;00:00</published>
             <author>
@@ -82,6 +86,10 @@
                     
                     
                     
+                        
+                            <category scheme="https://codestormv.github.io/posts/python/" term="posts\Python\" label="posts\Python\" />
+                        
+                    
                 
             
             
@@ -90,8 +98,8 @@
     
         <entry>
             <title type="text">Python | 包管理</title>
-            <link rel="alternate" type="text/html" href="https://codestormv.github.io/posts/python/package-manage/" />
-            <id>https://codestormv.github.io/posts/python/package-manage/</id>
+            <link rel="alternate" type="text/html" href="https://codestormv.github.io/posts/2023/08/package-manage/" />
+            <id>https://codestormv.github.io/posts/2023/08/package-manage/</id>
             <updated>2023-10-20T00:07:13&#43;08:00</updated>
             <published>2023-08-28T00:00:00&#43;00:00</published>
             <author>
@@ -124,6 +132,10 @@ freeze 是指将当前环境中安装的所有包及其版本信息列出，并�
                     
                     
                     
+                        
+                            <category scheme="https://codestormv.github.io/posts/python/" term="posts\Python\" label="posts\Python\" />
+                        
+                    
                 
             
             
@@ -132,8 +144,8 @@ freeze 是指将当前环境中安装的所有包及其版本信息列出，并�
     
         <entry>
             <title type="text">Python | 报错 Failed building wheel</title>
-            <link rel="alternate" type="text/html" href="https://codestormv.github.io/posts/python/failed-building-wheel/" />
-            <id>https://codestormv.github.io/posts/python/failed-building-wheel/</id>
+            <link rel="alternate" type="text/html" href="https://codestormv.github.io/posts/2023/08/failed-building-wheel/" />
+            <id>https://codestormv.github.io/posts/2023/08/failed-building-wheel/</id>
             <updated>2023-08-28T00:00:00&#43;00:00</updated>
             <published>2023-08-28T00:00:00&#43;00:00</published>
             <author>
@@ -169,6 +181,10 @@ freeze 是指将当前环境中安装的所有包及其版本信息列出，并�
                     
                     
                     
+                        
+                            <category scheme="https://codestormv.github.io/posts/python/" term="posts\Python\" label="posts\Python\" />
+                        
+                    
                 
             
             
@@ -177,9 +193,9 @@ freeze 是指将当前环境中安装的所有包及其版本信息列出，并�
     
         <entry>
             <title type="text">VSCode | 文件转移</title>
-            <link rel="alternate" type="text/html" href="https://codestormv.github.io/posts/vscode/vscode_file_transfer/" />
-            <id>https://codestormv.github.io/posts/vscode/vscode_file_transfer/</id>
-            <updated>2023-10-20T00:07:24&#43;08:00</updated>
+            <link rel="alternate" type="text/html" href="https://codestormv.github.io/posts/2023/08/file-transfer/" />
+            <id>https://codestormv.github.io/posts/2023/08/file-transfer/</id>
+            <updated>2023-10-20T18:34:09&#43;08:00</updated>
             <published>2023-08-28T00:00:00&#43;00:00</published>
             <author>
                     <name>CodeStorm</name>
@@ -217,6 +233,10 @@ mklink /J &amp;#34;%USERPROFILE%\.vscode&amp;#34; &amp;#34;目标目录&amp;#34;
                     
                     
                     
+                        
+                            <category scheme="https://codestormv.github.io/posts/vscode/" term="posts\VSCode\" label="posts\VSCode\" />
+                        
+                    
                 
             
             
@@ -225,9 +245,9 @@ mklink /J &amp;#34;%USERPROFILE%\.vscode&amp;#34; &amp;#34;目标目录&amp;#34;
     
         <entry>
             <title type="text">Windows | mklink 的使用</title>
-            <link rel="alternate" type="text/html" href="https://codestormv.github.io/posts/windows/mklink/" />
-            <id>https://codestormv.github.io/posts/windows/mklink/</id>
-            <updated>2023-10-20T00:07:30&#43;08:00</updated>
+            <link rel="alternate" type="text/html" href="https://codestormv.github.io/posts/2023/08/mklink/" />
+            <id>https://codestormv.github.io/posts/2023/08/mklink/</id>
+            <updated>2023-10-20T17:32:00&#43;08:00</updated>
             <published>2023-08-27T00:00:00&#43;00:00</published>
             <author>
                     <name>CodeStorm</name>
@@ -321,6 +341,10 @@ link 改名，链接保持
                 
                     
                     
+                    
+                        
+                            <category scheme="https://codestormv.github.io/posts/windows/" term="posts\Windows\" label="posts\Windows\" />
+                        
                     
                 
             

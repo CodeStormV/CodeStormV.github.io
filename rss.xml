@@ -19,15 +19,15 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Fri, 20 Oct 2023 17:17:48 &#43;0800</lastBuildDate>
+        <lastBuildDate>Fri, 20 Oct 2023 18:43:36 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://codestormv.github.io/rss.xml" />
         
         
             <item>
                 <title>Git | 设置子目录执行相同命令</title>
-                <link>https://codestormv.github.io/posts/git/git_set_submodule_execute_the_same_git_command/git_set_submodule_execute_the_same_git_command/</link>
-                <guid isPermaLink="true">https://codestormv.github.io/posts/git/git_set_submodule_execute_the_same_git_command/git_set_submodule_execute_the_same_git_command/</guid>
+                <link>https://codestormv.github.io/posts/2023/10/submodule-execute/</link>
+                <guid isPermaLink="true">https://codestormv.github.io/posts/2023/10/submodule-execute/</guid>
                 <pubDate>Thu, 19 Oct 2023 00:00:00 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
@@ -49,6 +49,10 @@
                         
                         
                         
+                            
+                                <category domain="https://codestormv.github.io/posts/git/">posts\Git\</category>
+                            
+                        
                     
                 
                 
@@ -57,8 +61,8 @@
         
             <item>
                 <title>Python | self 的使用</title>
-                <link>https://codestormv.github.io/posts/python/self-use/</link>
-                <guid isPermaLink="true">https://codestormv.github.io/posts/python/self-use/</guid>
+                <link>https://codestormv.github.io/posts/2023/08/self-use/</link>
+                <guid isPermaLink="true">https://codestormv.github.io/posts/2023/08/self-use/</guid>
                 <pubDate>Wed, 30 Aug 2023 00:00:00 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
@@ -84,6 +88,10 @@
                         
                         
                         
+                            
+                                <category domain="https://codestormv.github.io/posts/python/">posts\Python\</category>
+                            
+                        
                     
                 
                 
@@ -92,8 +100,8 @@
         
             <item>
                 <title>Python | 包管理</title>
-                <link>https://codestormv.github.io/posts/python/package-manage/</link>
-                <guid isPermaLink="true">https://codestormv.github.io/posts/python/package-manage/</guid>
+                <link>https://codestormv.github.io/posts/2023/08/package-manage/</link>
+                <guid isPermaLink="true">https://codestormv.github.io/posts/2023/08/package-manage/</guid>
                 <pubDate>Mon, 28 Aug 2023 00:00:00 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
@@ -122,6 +130,10 @@ freeze 是指将当前环境中安装的所有包及其版本信息列出，并�
                         
                         
                         
+                            
+                                <category domain="https://codestormv.github.io/posts/python/">posts\Python\</category>
+                            
+                        
                     
                 
                 
@@ -130,8 +142,8 @@ freeze 是指将当前环境中安装的所有包及其版本信息列出，并�
         
             <item>
                 <title>Python | 报错 Failed building wheel</title>
-                <link>https://codestormv.github.io/posts/python/failed-building-wheel/</link>
-                <guid isPermaLink="true">https://codestormv.github.io/posts/python/failed-building-wheel/</guid>
+                <link>https://codestormv.github.io/posts/2023/08/failed-building-wheel/</link>
+                <guid isPermaLink="true">https://codestormv.github.io/posts/2023/08/failed-building-wheel/</guid>
                 <pubDate>Mon, 28 Aug 2023 00:00:00 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
@@ -163,6 +175,10 @@ freeze 是指将当前环境中安装的所有包及其版本信息列出，并�
                         
                         
                         
+                            
+                                <category domain="https://codestormv.github.io/posts/python/">posts\Python\</category>
+                            
+                        
                     
                 
                 
@@ -171,8 +187,8 @@ freeze 是指将当前环境中安装的所有包及其版本信息列出，并�
         
             <item>
                 <title>VSCode | 文件转移</title>
-                <link>https://codestormv.github.io/posts/vscode/vscode_file_transfer/</link>
-                <guid isPermaLink="true">https://codestormv.github.io/posts/vscode/vscode_file_transfer/</guid>
+                <link>https://codestormv.github.io/posts/2023/08/file-transfer/</link>
+                <guid isPermaLink="true">https://codestormv.github.io/posts/2023/08/file-transfer/</guid>
                 <pubDate>Mon, 28 Aug 2023 00:00:00 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
@@ -207,6 +223,10 @@ mklink /J &amp;#34;%USERPROFILE%\.vscode&amp;#34; &amp;#34;目标目录&amp;#34;
                         
                         
                         
+                            
+                                <category domain="https://codestormv.github.io/posts/vscode/">posts\VSCode\</category>
+                            
+                        
                     
                 
                 
@@ -215,8 +235,8 @@ mklink /J &amp;#34;%USERPROFILE%\.vscode&amp;#34; &amp;#34;目标目录&amp;#34;
         
             <item>
                 <title>Windows | mklink 的使用</title>
-                <link>https://codestormv.github.io/posts/windows/mklink/</link>
-                <guid isPermaLink="true">https://codestormv.github.io/posts/windows/mklink/</guid>
+                <link>https://codestormv.github.io/posts/2023/08/mklink/</link>
+                <guid isPermaLink="true">https://codestormv.github.io/posts/2023/08/mklink/</guid>
                 <pubDate>Sun, 27 Aug 2023 00:00:00 &#43;0000</pubDate>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
@@ -307,6 +327,10 @@ link 改名，链接保持
                     
                         
                         
+                        
+                            
+                                <category domain="https://codestormv.github.io/posts/windows/">posts\Windows\</category>
+                            
                         
                     
                 
