@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">CodeStorm</title>
     <subtitle type="html"></subtitle>
-    <updated>2023-10-20T17:02:33&#43;08:00</updated>
+    <updated>2023-10-20T17:17:48&#43;08:00</updated>
     <id>https://codestormv.github.io/</id>
     <link rel="alternate" type="text/html" href="https://codestormv.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://codestormv.github.io/atom.xml" />
@@ -51,8 +51,8 @@
     
         <entry>
             <title type="text">Python | self 的使用</title>
-            <link rel="alternate" type="text/html" href="https://codestormv.github.io/posts/python/python_self/" />
-            <id>https://codestormv.github.io/posts/python/python_self/</id>
+            <link rel="alternate" type="text/html" href="https://codestormv.github.io/posts/python/self-use/" />
+            <id>https://codestormv.github.io/posts/python/self-use/</id>
             <updated>2023-10-20T00:07:18&#43;08:00</updated>
             <published>2023-08-30T00:00:00&#43;00:00</published>
             <author>
@@ -90,8 +90,8 @@
     
         <entry>
             <title type="text">Python | 包管理</title>
-            <link rel="alternate" type="text/html" href="https://codestormv.github.io/posts/python/python_package_manage/" />
-            <id>https://codestormv.github.io/posts/python/python_package_manage/</id>
+            <link rel="alternate" type="text/html" href="https://codestormv.github.io/posts/python/package-manage/" />
+            <id>https://codestormv.github.io/posts/python/package-manage/</id>
             <updated>2023-10-20T00:07:13&#43;08:00</updated>
             <published>2023-08-28T00:00:00&#43;00:00</published>
             <author>
@@ -132,8 +132,8 @@ freeze 是指将当前环境中安装的所有包及其版本信息列出，并�
     
         <entry>
             <title type="text">Python | 报错 Failed building wheel</title>
-            <link rel="alternate" type="text/html" href="https://codestormv.github.io/posts/python/failed_building_wheel/" />
-            <id>https://codestormv.github.io/posts/python/failed_building_wheel/</id>
+            <link rel="alternate" type="text/html" href="https://codestormv.github.io/posts/python/failed-building-wheel/" />
+            <id>https://codestormv.github.io/posts/python/failed-building-wheel/</id>
             <updated>2023-08-28T00:00:00&#43;00:00</updated>
             <published>2023-08-28T00:00:00&#43;00:00</published>
             <author>
