@@ -19,7 +19,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Fri, 20 Oct 2023 11:48:02 &#43;0800</lastBuildDate>
+        <lastBuildDate>Fri, 20 Oct 2023 11:50:09 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://codestormv.github.io/rss.xml" />
         
@@ -34,7 +34,7 @@
                 
                     <description>&lt;ol&gt;
 &lt;li&gt;在控制台输入： &lt;code&gt;git config alias.sync &#39;!f(){ git &amp;quot;$@&amp;quot; &amp;amp;&amp;amp; cd public &amp;amp;&amp;amp; git &amp;quot;$@&amp;quot;; }; f&#39;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;然后输入：&lt;code&gt;git sync 命令&lt;/code&gt; 如 &lt;code&gt;git commit -m &amp;quot;提交信息&amp;quot;&lt;/code&gt; 就可以达到子目录执行相同的命令&lt;/li&gt;
+&lt;li&gt;然后输入：&lt;code&gt;git sync 命令&lt;/code&gt; 如 &lt;code&gt;git sync commit -m &amp;quot;提交信息&amp;quot;&lt;/code&gt; 就可以达到子目录执行相同的命令&lt;/li&gt;
 &lt;/ol&gt;
 </description>
                 
