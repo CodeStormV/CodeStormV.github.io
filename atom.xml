@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">CodeStorm</title>
     <subtitle type="html"></subtitle>
-    <updated>2023-10-20T14:31:15&#43;08:00</updated>
+    <updated>2023-10-20T14:37:06&#43;08:00</updated>
     <id>https://codestormv.github.io/</id>
     <link rel="alternate" type="text/html" href="https://codestormv.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://codestormv.github.io/atom.xml" />
@@ -18,7 +18,7 @@
             <title type="text">Git | 设置子目录执行相同命令</title>
             <link rel="alternate" type="text/html" href="https://codestormv.github.io/posts/git/git_set_submodule_execute_the_same_git_command/git_set_submodule_execute_the_same_git_command/" />
             <id>https://codestormv.github.io/posts/git/git_set_submodule_execute_the_same_git_command/git_set_submodule_execute_the_same_git_command/</id>
-            <updated>2023-10-20T11:50:05&#43;08:00</updated>
+            <updated>2023-10-20T14:36:24&#43;08:00</updated>
             <published>2023-10-19T00:00:00&#43;00:00</published>
             <author>
                     <name>Codestorm</name>
@@ -27,7 +27,10 @@
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html"></summary>
             
                 <content type="html">&lt;ol&gt;
-&lt;li&gt;在控制台输入： &lt;code&gt;git config alias.sync &#39;!f(){ git &amp;quot;$@&amp;quot; &amp;amp;&amp;amp; cd public &amp;amp;&amp;amp; git &amp;quot;$@&amp;quot;; }; f&#39;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;在控制台输入：&lt;br&gt;
+&lt;code&gt;git config alias.sync &#39;!f(){ git &amp;quot;$@&amp;quot; &amp;amp;&amp;amp; cd public &amp;amp;&amp;amp; git &amp;quot;$@&amp;quot;; }; f&#39;&lt;/code&gt;&lt;br&gt;
+或者&lt;br&gt;
+&lt;code&gt;git config alias.sync &amp;quot;!f(){ git \&amp;quot;$@\&amp;quot; &amp;amp;&amp;amp; git -C public \&amp;quot;$@\&amp;quot;; }; f&amp;quot;&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;然后输入：&lt;code&gt;git sync 命令&lt;/code&gt; 如 &lt;code&gt;git sync commit -m &amp;quot;提交信息&amp;quot;&lt;/code&gt; 就可以达到子目录执行相同的命令&lt;/li&gt;
 &lt;/ol&gt;
 </content>
